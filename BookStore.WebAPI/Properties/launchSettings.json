@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "netCore.WebAPI": {
+    "BookStore.WebAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

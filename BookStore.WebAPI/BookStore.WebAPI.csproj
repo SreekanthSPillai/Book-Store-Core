@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+ <PropertyGroup Label="Globals">
+    <ProjectGuid>bd440884-c1c2-4db8-9e0c-64fe063db865</ProjectGuid>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\AccountViewModels.cs" />
+    <Compile Remove="Models\IdentityModels.cs" />
+    <Compile Remove="Models\ManageViewModels.cs" />
+    <Compile Remove="Models\Repository\CategoriesRepository.cs" />
+    <Compile Remove="Models\Repository\ProductsRepository.cs" />
+    <Compile Remove="Models\Repository\SubCategoriesRepository.cs" />
+    <Compile Remove="Models\ViewModel\MenuItem.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\ViewModel\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="MongoDB.Driver" Version="2.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+</Project>
