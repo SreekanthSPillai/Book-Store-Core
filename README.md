@@ -10,7 +10,11 @@ This tutorial creates a web API that runs Create, Read, Update, and Delete (CRUD
 In this tutorial, you learn how to:
 
 Configure MongoDB
+
 Create a MongoDB database
+
 Define a MongoDB collection and schema
+
 Perform MongoDB CRUD operations from a web API
+
 Customize JSON serialization
